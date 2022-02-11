@@ -1,0 +1,8 @@
+name: "unit equipment"
+displayName: "Unit Equipment"
+author: "Radiance of Dove"
+description: "A factional unit based mod focusing on land units and fortifactation walls, with unit equipment to upgrade any unit"
+version: "0.51"
+minGameVersion: "135"
+dependencies: [ ]
+hidden: false

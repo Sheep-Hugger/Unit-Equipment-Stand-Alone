@@ -1,0 +1,26 @@
+{
+  "type": "UnitFactory",
+  "category": "units",
+  "name": "Equipment Factory",
+  "description": "Equipment factory for units.",
+  "health": 3000,
+  "size": 3,
+  "consumes": {
+    "power": 0.5
+  },
+  "plans": [
+    {
+      "unit": "plackart",
+      "time": 350,
+      "requirements": [
+        "silicon/25",
+        "titanium/25"
+      ]
+    }
+  ],
+  "requirements": [
+    "silicon/100",
+    "titanium/50"
+  ],
+  "research": "additive-reconstructor"
+}
